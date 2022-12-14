@@ -17,12 +17,12 @@ Server Side Rendering provides you the following in general;
 - Faster site initial launch
 - Search Engine Optimization (SEO)
 
-How do I get a faster site launch?
+### How do I get a faster site launch?
 - Make your website PWA (Progressive Web Application) by adding a manifest file and a worker to your website and the first load will be much faster.
 
 So what we will understand here is that SSR does not have a monopoly on the initial loading of the website.
 
-So what is Search Engine Optimization?
+### So what is Search Engine Optimization?
 
 Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic. (source: [Wikipedia](https://en.wikipedia.org/wiki/Search_engine_optimization))
 
@@ -41,12 +41,12 @@ They publish their own applications by entering information such as.
 
 Users can also sort and filter applications by popularity or category, both locally and globally. For example, shopping apps, social media apps, etc.
 
-Hmm, I understand. So what is the connection between search engine and ssr?
+### Hmm, I understand. So what is the connection between search engine and ssr?
 
 The search engine scans your website before it is loaded and performs certain actions according to certain parameters to better serve the next search.
 While doing this, if your website is doing Server Side Rendering, it will report faster and better. It also expects you to make good use of html elements.
 
-Okay, so what kind of problem does SSR and Search Engine cause?
+### Okay, so what kind of problem does SSR and Search Engine cause?
 
 SSR has many problems in terms of development.
 These;
@@ -60,7 +60,7 @@ These;
   - When you want to make a dynamic optimization to Search Engine (for example, a product detail and user detail), maybe you will only request the values that you will use for the meta from the database.
   - You will keep unnecessary metadata in your database to server to Search Engine.
 
-So how will the Web App Store solve the Search Engine problem?
+### So how will the Web App Store solve the Search Engine problem?
   - Just like mobile applications, developers will include their own applications in the store.
   - Developers will have enetered a lot of metadata (category, target audience, description, title, image etc.) while including their applications in the store. In this way, categorization, sorting and searching will be easier.
   - Since there will be a control while the developers include their applications in the system, the chance of visiting spam sites will be much less.
@@ -71,6 +71,6 @@ So how will the Web App Store solve the Search Engine problem?
 
 This is how I want to maximize the user and developer experience.
 
-What isn't this project?
+## What isn't this project?
 
 This project is not the end of Search Engine. Search engine doesn't just crawl website, it can crawl almost anything today. My goal with this project is to modernize the website development process.
